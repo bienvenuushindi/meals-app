@@ -6,7 +6,8 @@
     "scripts": {
       "test": "jest",
       "start": "webpack serve --open",
-      "build": "webpack"
+      "build": "webpack",
+      "deploy": "gh-pages -d dist"
     },
     "jest": {
       "testEnvironment": "jsdom",
@@ -58,4 +59,3 @@
       "lodash": "^4.17.21"
     }
   }
-  
