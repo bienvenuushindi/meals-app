@@ -35,7 +35,7 @@ const mapCard = (meals) => {
     const likes = await showLikes(meal.idMeal);
     // creating div element to hold one(1) meal info
     const container = document.createElement('div');
-    container.classList.add('p-2', 'col-md-3', 'mb-2');
+    container.classList.add('p-2', 'col-md-4', 'mb-2', 'col-lg-3', 'col-12');
     const mealCard = document.createElement('div');
     mealCard.classList.add('meal-card', 'card', 'shadow-sm');
     mealCard.innerHTML = `
